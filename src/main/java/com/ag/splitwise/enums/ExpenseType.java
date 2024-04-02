@@ -1,4 +1,4 @@
-package com.ag.Splitwise.enums;
+package com.ag.splitwise.enums;
 
 public enum ExpenseType {
     ACTUAL,TRANSACTION;

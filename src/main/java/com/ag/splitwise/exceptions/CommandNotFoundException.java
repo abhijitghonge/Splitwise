@@ -1,4 +1,4 @@
-package com.ag.Splitwise.exceptions;
+package com.ag.splitwise.exceptions;
 
 public class CommandNotFoundException extends Exception {
     public CommandNotFoundException(String s) {

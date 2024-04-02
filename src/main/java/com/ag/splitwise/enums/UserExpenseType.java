@@ -1,4 +1,4 @@
-package com.ag.Splitwise.enums;
+package com.ag.splitwise.enums;
 
 public enum UserExpenseType {
     OWES, PAID

@@ -1,4 +1,4 @@
-package com.ag.Splitwise;
+package com.ag.splitwise;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

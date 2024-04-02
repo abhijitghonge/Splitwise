@@ -1,4 +1,4 @@
-package com.ag.Splitwise.models;
+package com.ag.splitwise.models;
 
 import jakarta.persistence.*;
 import lombok.Getter;

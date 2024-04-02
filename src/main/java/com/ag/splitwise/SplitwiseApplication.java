@@ -1,7 +1,7 @@
-package com.ag.Splitwise;
+package com.ag.splitwise;
 
-import com.ag.Splitwise.commands.CommandExecutor;
-import com.ag.Splitwise.exceptions.CommandNotFoundException;
+import com.ag.splitwise.commands.CommandExecutor;
+import com.ag.splitwise.exceptions.CommandNotFoundException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -1,11 +1,10 @@
-package com.ag.Splitwise.models;
+package com.ag.splitwise.models;
 
-import com.ag.Splitwise.enums.ExpenseType;
+import com.ag.splitwise.enums.ExpenseType;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
 import java.util.Map;
 
 @Getter
@@ -13,9 +12,9 @@ import java.util.Map;
 @Entity
 public class Expense extends BaseModel{
 
-    String description;
+    private String description;
 
-    double amount;
+    private double amount;
 
     @OneToMany(mappedBy = "expense")
     @MapKey(name = "user")
@@ -23,5 +22,12 @@ public class Expense extends BaseModel{
 
     @Enumerated(EnumType.ORDINAL)
     private ExpenseType expenseType;
+
+    @ManyToOne
+    private User createdBy;
+
+    @ManyToOne
+    @JoinColumn(name = "group_id")
+    private UserGroup group;
 
 }
